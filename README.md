@@ -1,4 +1,4 @@
-## Script For initial setup ubuntu server
+## script for initial setup ubuntu server
 
 ### menu items:
 * 0- exit from script
@@ -12,11 +12,11 @@
 for ease of doing various tasks on Ubuntu server
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash)"
 ```
 or
 
 ```bash
-bash -c "$(wget https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash -O -)"
+sudo bash -c "$(wget https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash -O -)"
 ```
 
