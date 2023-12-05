@@ -11,9 +11,12 @@
 
 for ease of doing various tasks on Ubuntu server
 
-``bash -c "$(curl -fsSL https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash)"
-``
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash)"
+```
+or
 
-``bash -c "$(wget https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash -O -)"
-``
+```bash
+bash -c "$(wget https://raw.githubusercontent.com/mohammadhejazirad/initial_server_setup_ubuntu/main/setup.bash -O -)"
+```
 
